@@ -1,0 +1,22 @@
+{
+  "name": "alx-backend-javascript",
+  "version": "1.0.0",
+  "description": "this Readme file for the project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmed2103/alx-backend-javascript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Ahmed_Hasona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed2103/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/ahmed2103/alx-backend-javascript#readme"
+}
