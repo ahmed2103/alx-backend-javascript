@@ -1,5 +1,4 @@
-export default handleResponseFromAPI(promise)
-{
+export default function handleResponseFromAPI(promise) {
     return promise
         .then(() => {
             return {
@@ -9,9 +8,8 @@ export default handleResponseFromAPI(promise)
         })
         .catch(() => {
             return new Error('The fake API is not working currently');
+        })
+        .finally(() => {
+            console.log('Got a response from the API');
         });
-.
-    finally(() => {
-        console.log('Got a response from the API');
-    });
 }
