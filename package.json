@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/ahmed2103/alx-backend-javascript/issues"
   },
-  "homepage": "https://github.com/ahmed2103/alx-backend-javascript#readme"
+  "homepage": "https://github.com/ahmed2103/alx-backend-javascript#readme",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
