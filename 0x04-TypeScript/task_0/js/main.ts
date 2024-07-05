@@ -34,8 +34,8 @@ for (const key of Object.keys(firstStudent)) {
 }
 
 students.map(student => {
+    const row = document.createElement("tr");
     for (const val of Object.values(student)) {
-        const row = document.createElement("tr");
         const cell = document.createElement("td");
         cell.textContent = val;
         row.appendChild(cell);
