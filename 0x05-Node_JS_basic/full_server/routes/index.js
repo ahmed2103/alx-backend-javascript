@@ -1,9 +1,11 @@
-#!/usr/bin/node
+import AppController from '../controllers/AppController';
+import StudentsController from '../controllers/StudentsController';
 
-const StudentsController = require('../controllers/StudentsController');
-const app = require('../server');
+const mapRoutes = (app) => {
+  app.get('/', AppController.getHomepage);
+  app.get('/students', StudentsController.getAllStudents);
+  app.get('/students/:major', StudentsController.getAllStudentsByMajor);
+};
 
-app.get('/', StudentsController.getAllStudents);
-app.get('/students', StudentsController.getAllStudents);
-
-
+export default mapRoutes;
+module.exports = mapRoutes;
